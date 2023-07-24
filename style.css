@@ -62,21 +62,21 @@ body{
 
 .page3{
 	position: relative;
-	height: 1350px;
+	height: 1400px;
 	width: 100%;
 	scroll-snap-align: flex-start;
 }
 
 .page4{
 	position: relative;
-	height: 1300px;
+	height: 1200px;
 	width: 100%;
 	scroll-snap-align: flex-start;
 }
 
 .page5{
 	position: relative;
-	height: 100vh;
+	height: 1000px;
 	width: 100%;
 	scroll-snap-align: flex-start;
 }
@@ -88,19 +88,6 @@ body{
 	scroll-snap-align: flex-start;
 }
 
-.page7{
-	position: relative;
-	height: 100vh;
-	width: 100%;
-	scroll-snap-align: flex-start;
-}
-
-.page8{
-	position: relative;
-	height: 100vh;
-	width: 100%;
-	scroll-snap-align: flex-start;
-}
 
 
 
@@ -388,4 +375,33 @@ body{
 	height: 350px;
 	width: 450px;
 	opacity: 1;
+}
+
+.page5{
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.page5 .image4{
+	position: absolute;
+	height: fit-content;
+	width: fit-content;
+}
+
+.page5 .image4 img{
+	height: 800px;
+	width: 100%;
+}
+
+.page5 .rpm{
+	position: absolute;
+	height: 400px;
+	width: fit-content;
+}
+
+.page5 .rpm span{
+	font-size: 370px;
+	font-weight: 600;
+	color: var(--cream);
 }
