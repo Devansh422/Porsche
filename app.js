@@ -8,6 +8,7 @@ var infocontainer = document.querySelector('.infocontainer');
 var imgcontainer = document.querySelector('.imgcontainer');
 var imgcontainer2 = document.querySelector('.imgcontainer2');
 var infocar = document.querySelector('.infocar');
+var rpm = document.querySelector('.rpm');
 
 
 function handleScroll() {
@@ -22,6 +23,7 @@ function handleScroll() {
 	infocar.style.marginTop = (100 + scrollProgress * 50) + 'px';
 	imgcontainer.style.marginLeft = (-scrollProgress * 700) + 'px';
 	imgcontainer2.style.marginLeft = (-600 + scrollProgress * 1000) + 'px';
+	rpm.style.marginTop = (-400 + scrollProgress * 1000) + 'px';
 
 
 }
