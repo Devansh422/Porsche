@@ -1,11 +1,24 @@
-@font-face {
-  font-family: "Pprader";
-  src: url("https://uploads-ssl.webflow.com/6421896c61923a4c3a53b9f6/6421fdab7d2dce339e4f9024_pprader-regular.woff2") format("woff2"), url("https://uploads-ssl.webflow.com/6421896c61923a4c3a53b9f6/6421fdabe4a4436a8f16f21f_pprader-regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
+@font-face { 
+  font-family:'Pprader';
+  src:url('https://uploads-ssl.webflow.com/640333b292c9610b133ff0c5/646b2f04c90bbe0c4d34d9e7_PPRader-Bold.woff2') format('woff2');
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:'Pprader';
+  src:url('https://uploads-ssl.webflow.com/640333b292c9610b133ff0c5/646b2f043d69c9698cd0692e_PPRader-Thin.woff2') format('woff2');
+  font-weight:100;
+  font-style:normal;
+  font-display:swap;
+} 
+@font-face { 
+  font-family:'Pprader';
+  src:url('https://uploads-ssl.webflow.com/640333b292c9610b133ff0c5/646b2f046c21bdbdd85f5d52_PPRader-Regular.woff2') format('woff2');
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+} 
 :root{
 	--green : #263a29;
 	--cream : #f2e3db;
